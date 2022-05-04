@@ -53,3 +53,9 @@ pypi_test:
 
 pypi:
 	@twine upload dist/* -u $(PYPI_USERNAME)
+
+PACKAGE_NAME=usa_housing
+FILENAME=model
+
+run_model:
+	@python -m ${PACKAGE_NAME}.${FILENAME}
