@@ -1,74 +1,25 @@
-# Data analysis
-- Document here the project: usa_housing
-- Description: Project Description
-- Data Source:
-- Type of analysis:
+# house-sales-in-king-country-usa
 
-Please document the project the better you can.
+[House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction) is a dataset provided by [harlfoxem](https://www.kaggle.com/harlfoxem) which contains house sales prices for King County sold between may 2014 and may 2015. 
 
-# Startup the project
+## Table of contents
 
-The initial setup.
+- [Getting Started](#getting-started)
+- [Models Performances](#models-performances)
 
-Create virtualenv and install the project:
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv ~/venv ; source ~/venv/bin/activate ;\
-    pip install pip -U; pip install -r requirements.txt
-```
+## Getting started
 
-Unittest test:
-```bash
-make clean install test
-```
+The [notebook](./notebooks/USA_housing_analysis.ipynb) focus on how to find the best features using Filter Methods, Wrapper Methods and Embedded Methods. Depois disso, foram feitas diversas evaluações com diversos modelos de regressão (Linear Regression, Polynomial Regression, KNN Regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Random Forest, Decision Tree, XGBoost, AdaBoost and Gradient Boosting).
 
-Check for usa_housing in gitlab.com/{group}.
-If your project is not set please add it:
+Também foi feito um arquivo [model.py](./usa_housing/model.py) em forma de função com o modelo que obteve as melhores métricas. 
 
-- Create a new project on `gitlab.com/{group}/usa_housing`
-- Then populate it:
+Para iniciar o modelo pelo console do python, basta digitar ```make run_model```, informando assim as métricas do modelo escolhido para previsao o preço de uma casa em King County.
 
-```bash
-##   e.g. if group is "{group}" and project_name is "usa_housing"
-git remote add origin git@github.com:{group}/usa_housing.git
-git push -u origin master
-git push -u origin --tags
-```
+## Models performances
 
-Functionnal test with a script:
+**MAE error and R2 square metrics for differents Machine Learning Regression models**
 
-```bash
-cd
-mkdir tmp
-cd tmp
-usa_housing-run
-```
+![scores](./docs/imgs/scores.png)
 
-# Install
+To see more, check the [notebook](./notebooks/USA_housing_analysis.ipynb).
 
-Go to `https://github.com/{group}/usa_housing` to see the project, manage issues,
-setup you ssh public key, ...
-
-Create a python3 virtualenv and activate it:
-
-```bash
-sudo apt-get install virtualenv python-pip python-dev
-deactivate; virtualenv -ppython3 ~/venv ; source ~/venv/bin/activate
-```
-
-Clone the project and install it:
-
-```bash
-git clone git@github.com:{group}/usa_housing.git
-cd usa_housing
-pip install -r requirements.txt
-make clean install test                # install and test
-```
-Functionnal test with a script:
-
-```bash
-cd
-mkdir tmp
-cd tmp
-usa_housing-run
-```
