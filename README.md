@@ -1,6 +1,6 @@
 # Houses Sales in King County, USA
 
-[House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction) is a dataset provided by [harlfoxem](https://www.kaggle.com/harlfoxem) which contains house sales prices for King County sold between may 2014 and may 2015. 
+[House Sales in King County, USA](https://www.kaggle.com/harlfoxem/housesalesprediction) is a dataset provided by [harlfoxem](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) which contains house sales prices for King County sold between may 2014 and may 2015. 
 
 ## Table of contents
 
