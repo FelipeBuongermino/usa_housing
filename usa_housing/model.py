@@ -32,4 +32,5 @@ if __name__ == '__main__':
     df = clean_dataframe()
     # Train Model
     final = model(df)
-    print(final)
+    print('Model: Gradient Boosting Regressor')
+    print(f'R^2 Train = {round(final[0],3)}, R^2 Test = {round(final[2],3)}, MAE Train = {round(final[1],2)} and MAE Test = {round(final[3],2)}')
