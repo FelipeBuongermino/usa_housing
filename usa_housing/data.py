@@ -2,7 +2,7 @@ import pandas as pd
 
 def get_data():
     """Get initial DataFrame"""
-    df = pd.read_csv('raw_data/kc_house_data.csv')
+    df = pd.read_csv('usa_housing/data/kc_house_data.csv')
     return df
 
 

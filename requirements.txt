@@ -8,6 +8,15 @@ wheel>=0.29
 numpy
 pandas
 scikit-learn
+dataframe_image
+seaborn
+matplotlib.pyplot
+statsmodels.api
+statsmodels.stats.outliers_influence
+sklearn
+mlxtend
+xgboost
+
 
 # tests/linter
 black
