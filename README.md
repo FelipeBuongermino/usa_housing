@@ -9,17 +9,18 @@
 
 ## Getting started
 
-The [notebook](./notebooks/USA_housing_analysis.ipynb) focus on how to find the best features using Filter Methods, Wrapper Methods and Embedded Methods. Depois disso, foram feitas diversas evaluações com diversos modelos de regressão (Linear Regression, Polynomial Regression, KNN Regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Random Forest, Decision Tree, XGBoost, AdaBoost and Gradient Boosting).
+The [notebook](./notebooks/USA_housing_analysis.ipynb) focus on how to find the best features using Filter Methods, Wrapper Methods and Embedded Methods. After that, several evaluations were performed with different regression models (Linear Regression, Polynomial Regression, KNN Regression, Ridge Regression, Lasso Regression, Elastic Net Regression, Random Forest, Decision Tree, XGBoost, AdaBoost and Gradient Boosting).
 
-Também foi feito um arquivo [model.py](./usa_housing/model.py) em forma de função com o modelo que obteve as melhores métricas. 
+A [model.py](./usa_housing/model.py) file was also created using model that obtained the best metrics.
 
-Para iniciar o modelo pelo console do python, basta digitar ```make run_model```, informando assim as métricas do modelo escolhido para previsao o preço de uma casa em King County.
+To start the model from the python console, write ```make run_model```, which will show the metrics of the chosen model to predict the price of a house in King County.
+
 
 ## Models performances
 
 **MAE error and R2 square metrics for differents Machine Learning Regression models**
 
-![scores](./docs/imgs/scores.png)
+![scores](./notebooks/models_evaluations2.png)
 
 To see more, check the [notebook](./notebooks/USA_housing_analysis.ipynb).
 
