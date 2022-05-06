@@ -11,6 +11,7 @@ scikit-learn
 dataframe_image
 seaborn
 matplotlib.pyplot
+statsmodels
 statsmodels.api
 statsmodels.stats.outliers_influence
 sklearn

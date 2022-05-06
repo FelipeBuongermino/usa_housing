@@ -7,7 +7,7 @@ from usa_housing.data import get_data
 
 
 def model(df):
-    """Gradient Boosting Regressor Model"""
+    """ Gradient Boosting Regressor Model """
     X_gb = df.drop(columns=['price'], axis=1)
     y_gb = df['price']
 
